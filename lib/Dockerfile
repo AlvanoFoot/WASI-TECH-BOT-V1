@@ -18,8 +18,8 @@
  
 
 FROM quay.io/suhailtechinfo/suhail-v2
-RUN git clone https://github.com/Itxxwasi/WASI-TECH-BOT-V1/root/Itxxwasi
-WORKDIR /root/Itxxwasi/
+RUN git clone https://github.com/AlvanoFoot/WASI-TECH-BOT-V1.git
+WORKDIR /root/AlvanoFoot/
 RUN npm install
 EXPOSE 8000
 CMD ["npm","start" ] 
